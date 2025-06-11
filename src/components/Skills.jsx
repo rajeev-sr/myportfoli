@@ -40,7 +40,7 @@ const Skills = () => {
     >
       {/* Section Title Animation */}
       <motion.h2 
-        className="text-5xl font-bold text-center text-green-400 mb-10"
+        className="text-4xl font-bold text-center text-white mb-10"
         initial={{ opacity: 0, y: -20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
