@@ -45,7 +45,7 @@ const Skills = () => {
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}
       >
-        🚀 My Skills
+         My Skills
       </motion.h2>
 
       {/* Skills Grid */}

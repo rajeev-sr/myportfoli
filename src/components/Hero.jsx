@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profileImage from "/public/profile.png";
+import profileImage from "/public/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
         <h2 className="mt-4 text-3xl font-semibold text-gray-700">
           <Typewriter
             words={[
-              "Data Scientist",
+              "Data Analyst",
               "Full-Stack Developer",
               "Competitive Programmer",
             ]}
